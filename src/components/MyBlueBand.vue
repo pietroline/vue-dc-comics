@@ -59,7 +59,7 @@
             display: flex;
             align-items: center;
 
-            padding: 0 3rem;
+            padding: 0 2rem;
 
             img{
                height: 3rem;
@@ -67,6 +67,7 @@
 
             h5{
                 padding-left: 1rem;
+                font-size: 0.9rem;
             }
         }
     }

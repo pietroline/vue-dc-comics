@@ -56,7 +56,7 @@
             padding: 1rem;
 
             font-weight: bold;
-            font-size: 0.8rem;
+            font-size: 1rem;
 
             a{
                 text-decoration: none;
