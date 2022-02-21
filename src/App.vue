@@ -19,7 +19,7 @@
       <div class="footerDown">
           <div class="container spazioCentro">
             <SingUpNow/>
-            <SingUpNow/>
+            <FollowUs/>
           </div>
       </div>
     </footer>
@@ -33,6 +33,8 @@ import NavHeader from './components/NavHeader.vue';
 import MyMain from './components/MyMain.vue';
 import MyBlueBand from './components/MyBlueBand.vue';
 import SingUpNow from './components/SingUpNow.vue';
+import FollowUs from './components/FollowUs.vue';
+
 
 export default {
   name: 'App',
@@ -42,6 +44,7 @@ export default {
     MyMain,
     MyBlueBand,
     SingUpNow,
+    FollowUs,
   }
 }
 </script>
@@ -83,6 +86,6 @@ export default {
          @include centroPagina;
       }
     }
-    
+
   }
 </style>
