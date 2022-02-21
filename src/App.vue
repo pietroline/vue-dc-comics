@@ -9,6 +9,10 @@
     <main>
         <MyMain/>
     </main>
+
+    <footer>
+      <MyBlueBand/>
+    </footer>
   
   </div>
 </template>
@@ -17,6 +21,7 @@
 import LogoDC from './components/LogoDC.vue';
 import NavHeader from './components/NavHeader.vue';
 import MyMain from './components/MyMain.vue';
+import MyBlueBand from './components/MyBlueBand.vue';
 
 export default {
   name: 'App',
@@ -24,6 +29,7 @@ export default {
     LogoDC,
     NavHeader,
     MyMain,
+    MyBlueBand,
   }
 }
 </script>
