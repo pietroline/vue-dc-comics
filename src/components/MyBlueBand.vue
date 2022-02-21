@@ -47,6 +47,7 @@
 
         a{
             text-decoration: none;
+            text-transform: uppercase;
             color: #fff;
             
             display: flex;
