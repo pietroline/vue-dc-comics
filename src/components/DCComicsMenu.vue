@@ -40,7 +40,7 @@
     ul{
 
         list-style: none;
-        padding: 0 3rem;
+        padding: 0 1.5rem;
 
         li:first-child{
                 text-transform: uppercase;

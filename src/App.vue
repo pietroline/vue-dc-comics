@@ -30,6 +30,7 @@
 
             <DCMenu/>
             <SitesMenu/>
+            <img src="./assets/img/dc-logo-bg.png" alt="">
 
           </div>
 
@@ -102,8 +103,7 @@ export default {
 
     .footerMiddle{
       background-image: url("./assets/img/footer-bg.jpg");
-      width: 100%;
-      height: 500px;
+      background-size: cover;
 
         .container{
           @include centroPagina;

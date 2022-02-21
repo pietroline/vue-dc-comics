@@ -26,7 +26,7 @@
     ul{
 
         list-style: none;
-        padding: 2rem 3rem;
+        padding: 2rem 1.5rem;
 
         li:first-child{
                 text-transform: uppercase;
