@@ -42,6 +42,10 @@
         a{
             text-decoration: none;
             color: $coloreTestoGrigio;
+
+            &:hover{
+                color: #fff;
+            }
         }
 
         li{

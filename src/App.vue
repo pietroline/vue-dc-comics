@@ -113,7 +113,7 @@ export default {
     }
 
     .footerDown{
-      background-color: $coloreNeroFooter;
+      background-color: $coloreNero;
       padding: 2rem 0;
 
       .container{

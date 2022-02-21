@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="contenitore">
 
         <span>FOLLOW US</span>
         
@@ -36,7 +36,7 @@
 
      @import "./../assets/style/variables.scss";
 
-    .container{
+    .contenitore{
         color: $colorBlue;
         font-weight: bold;
 

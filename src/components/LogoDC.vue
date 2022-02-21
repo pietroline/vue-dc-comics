@@ -15,7 +15,7 @@
   .logo{
     margin: 2rem 0;
 
-    width: 5rem;
+    width: 4rem;
 
     img{
       width: 100%;
