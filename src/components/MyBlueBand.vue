@@ -36,8 +36,13 @@
 
 <style lang="scss" scoped>
 
+    @import "./../assets/style/variables.scss";
+
     .fasciaBlu{
-        background-color: #0082f3;
+
+        @include centroPagina;
+
+        background-color: $colorBlue;
 
         height: 8rem;
         width: 100%;
@@ -56,7 +61,6 @@
 
             padding: 0 3rem;
 
-            
             img{
                height: 3rem;
             }
