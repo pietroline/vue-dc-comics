@@ -1,9 +1,10 @@
 <template>
     <div class="fasciaBlu">
         <a href="#">
-            <div><img src="./../assets/img/buy-comics-digital-comics.png" alt="Img comics digital"></div>
+            <img src="./../assets/img/buy-comics-digital-comics.png" alt="Img comics digital">
             <h5>Digital Comics</h5>
         </a>
+       
 
         <a href="#">
             <img src="./../assets/img/buy-comics-merchandise.png" alt="Img comics merchandaise">
@@ -16,7 +17,7 @@
         </a>
 
         <a href="#">
-            <img src="./../assets/img/buy-comics-shop-locator.png" alt="Img comics shop locator">
+            <img class="locator" src="./../assets/img/buy-comics-shop-locator.png" alt="Img comics shop locator">
             <h5>comics shop locator</h5>
         </a>
 
@@ -55,8 +56,9 @@
 
             padding: 0 3rem;
 
+            
             img{
-                width: 3rem;
+               height: 3rem;
             }
 
             h5{
