@@ -105,10 +105,22 @@ export default {
       background-image: url("./assets/img/footer-bg.jpg");
       background-size: cover;
 
+      height: 30rem;
+      overflow: hidden;
+
         .container{
           @include centroPagina;
-          
+
           padding: 3rem 0;
+          position: relative;
+
+          img{
+            height: 45rem;
+            
+            position: absolute;
+            top: -8rem;
+            right: 0;
+          }
         }
     }
 
