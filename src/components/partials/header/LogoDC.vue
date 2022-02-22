@@ -1,7 +1,7 @@
 <template>
-  <div class="logo">
+  <a href="#" class="logo">
     <img src="./../../../assets/img/dc-logo.png" alt="Logo DC">
-  </div>
+  </a>
 </template>
 
 <script>
