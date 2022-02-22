@@ -1,17 +1,17 @@
 <template>
     <div>
 
-        <section class="jumbotron">
-            <img src="" alt="">
-        </section>
-
+        <section class="jumbotron"/>
+           
         <div class="container">
-            
+            <span class="btn_blue_big">Current Series</span>
+
             <ProductCard 
                 v-for="(item, index) in DCComics" :key="index"
                 :item = "item"
-            
             />
+
+            <span class="btn_blue">Load more</span>
           
         </div>
 
@@ -123,7 +123,41 @@
         @include centroPagina;
 
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
+
+        padding: 2rem 0;
+
+        position: relative;
+
+        .btn{       
+            padding: 0.5rem 3rem;
+
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.8rem;
+
+            &_blue{
+                @extend .btn;
+                background-color: $colorBlue;
+                color: #fff;
+
+                &_big{
+                    @extend .btn_blue;
+                    height: 3rem;
+                    padding: 0.3rem 1.5rem;
+                    font-size: 1.2rem;
+
+                    position: absolute;
+                    top: -1.5rem;
+                    left: 0;
+
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+        }
     }
 
 </style>
