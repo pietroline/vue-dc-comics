@@ -1,29 +1,15 @@
 <template>
     <ul>
         <li>
-            <a href="#">DC comics</a>
+            <a href="#">SHOP</a>
         </li>
         <li>
-            <a href="#">Characters</a>
+            <a href="#">Shop DC</a>
         </li>
         <li>
-            <a href="#">Comics</a>
+            <a href="#">Shop DC Collectibles</a>
         </li>
-        <li>
-            <a href="#">Movies</a>
-        </li>
-        <li>
-            <a href="#">TV</a>
-        </li>
-        <li>
-            <a href="#">Games</a>
-        </li>
-        <li>
-            <a href="#">Videos</a>
-        </li>
-        <li>
-            <a href="#">News</a>
-        </li>
+       
     </ul>
 </template>
 
@@ -35,12 +21,12 @@
 
 <style lang="scss" scoped>
 
-    @import "./../assets/style/variables.scss";
+    @import "./../../../assets/style/variables.scss";
 
     ul{
 
         list-style: none;
-        padding: 0 1.5rem;
+        padding: 2rem 1.5rem;
 
         li:first-child{
                 text-transform: uppercase;

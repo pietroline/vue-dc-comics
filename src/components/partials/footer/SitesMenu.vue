@@ -1,32 +1,37 @@
 <template>
     <ul>
         <li>
-            <a href="#">SHOP</a>
+            <a href="#">DC</a>
         </li>
         <li>
-            <a href="#">Shop DC</a>
+            <a href="#">MAD Magazine</a>
         </li>
         <li>
-            <a href="#">Shop DC Collectibles</a>
+            <a href="#">DC Kinds</a>
         </li>
-       
+        <li>
+            <a href="#">DC Universe</a>
+        </li>
+        <li>
+            <a href="#">DC Power Visa</a>
+        </li>
     </ul>
 </template>
 
 <script>
     export default {
-       name: "DCComicsMenu", 
+       name: "SitesMenu", 
     }
 </script>
 
 <style lang="scss" scoped>
 
-    @import "./../assets/style/variables.scss";
+    @import "./../../../assets/style/variables.scss";
 
     ul{
 
         list-style: none;
-        padding: 2rem 1.5rem;
+        padding: 0 1.5rem;
 
         li:first-child{
                 text-transform: uppercase;

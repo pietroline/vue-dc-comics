@@ -10,7 +10,7 @@
 
 <style lang="scss" scoped>
 
-    @import "./../assets/style/variables.scss";
+    @import "./../../../assets/style/variables.scss";
 
     .btn{
         border: 2px solid $colorBlue;

@@ -4,29 +4,50 @@
             <a href="#">DC</a>
         </li>
         <li>
-            <a href="#">MAD Magazine</a>
+            <a href="#">Terms Of Use</a>
         </li>
         <li>
-            <a href="#">DC Kinds</a>
+            <a href="#">Privacy policy (New)</a>
         </li>
         <li>
-            <a href="#">DC Universe</a>
+            <a href="#">Ad Choices</a>
         </li>
         <li>
-            <a href="#">DC Power Visa</a>
+            <a href="#">Advertising</a>
+        </li>
+        <li>
+            <a href="#">Jobs</a>
+        </li>
+        <li>
+            <a href="#">Subscriptions</a>
+        </li>
+        <li>
+            <a href="#">Talent Workshops</a>
+        </li>
+        <li>
+            <a href="#">CPSC Certificates</a>
+        </li>
+        <li>
+            <a href="#">Ratings</a>
+        </li>
+        <li>
+            <a href="#">Shop Help</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
         </li>
     </ul>
 </template>
 
 <script>
     export default {
-       name: "SitesMenu", 
+       name: "DCMenu", 
     }
 </script>
 
 <style lang="scss" scoped>
 
-    @import "./../assets/style/variables.scss";
+    @import "./../../../assets/style/variables.scss";
 
     ul{
 

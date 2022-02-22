@@ -1,53 +1,41 @@
 <template>
     <ul>
         <li>
-            <a href="#">DC</a>
+            <a href="#">DC comics</a>
         </li>
         <li>
-            <a href="#">Terms Of Use</a>
+            <a href="#">Characters</a>
         </li>
         <li>
-            <a href="#">Privacy policy (New)</a>
+            <a href="#">Comics</a>
         </li>
         <li>
-            <a href="#">Ad Choices</a>
+            <a href="#">Movies</a>
         </li>
         <li>
-            <a href="#">Advertising</a>
+            <a href="#">TV</a>
         </li>
         <li>
-            <a href="#">Jobs</a>
+            <a href="#">Games</a>
         </li>
         <li>
-            <a href="#">Subscriptions</a>
+            <a href="#">Videos</a>
         </li>
         <li>
-            <a href="#">Talent Workshops</a>
-        </li>
-        <li>
-            <a href="#">CPSC Certificates</a>
-        </li>
-        <li>
-            <a href="#">Ratings</a>
-        </li>
-        <li>
-            <a href="#">Shop Help</a>
-        </li>
-        <li>
-            <a href="#">Contact Us</a>
+            <a href="#">News</a>
         </li>
     </ul>
 </template>
 
 <script>
     export default {
-       name: "DCMenu", 
+       name: "DCComicsMenu", 
     }
 </script>
 
 <style lang="scss" scoped>
 
-    @import "./../assets/style/variables.scss";
+    @import "./../../../assets/style/variables.scss";
 
     ul{
 

@@ -2,10 +2,7 @@
   <div>
 
     <header>
-      <div class="spazioCentro">
-        <LogoDC/>
-        <NavHeader/>
-      </div>
+      <MyHeader/>
     </header>
 
     <main>
@@ -13,69 +10,28 @@
     </main>
 
     <footer>
-
-      <div class="footerUp">
-        <div class="container"><MyBlueBand/></div>
-      </div>
-
-      <div class="footerMiddle">
-        <div class="container">
-
-          <div class="flex">
-
-            <div class="flex-column">
-              <DCComicsMenu/>
-              <ShopMenu/>
-            </div>
-
-            <DCMenu/>
-            <SitesMenu/>
-            <img src="./assets/img/dc-logo-bg.png" alt="">
-
-          </div>
-
-        </div>
-      </div>
-
-      <div class="footerDown">
-          <div class="container spazioCentro">
-            <SingUpNow/>
-            <FollowUs/>
-          </div>
-      </div>
-
+      <MyFooter/>
     </footer>
   
   </div>
 </template>
 
 <script>
-import LogoDC from './components/LogoDC.vue';
-import NavHeader from './components/NavHeader.vue';
-import MyMain from './components/MyMain.vue';
-import MyBlueBand from './components/MyBlueBand.vue';
-import DCComicsMenu from './components/DCComicsMenu.vue';
-import DCMenu from './components/DCMenu.vue';
-import SitesMenu from './components/SitesMenu.vue';
-import ShopMenu from './components/ShopMenu.vue';
-import SingUpNow from './components/SingUpNow.vue';
-import FollowUs from './components/FollowUs.vue';
 
-export default {
-  name: 'App',
-  components: {
-    LogoDC,
-    NavHeader,
-    MyMain,
-    MyBlueBand,
-    DCComicsMenu,
-    DCMenu,
-    SitesMenu,
-    ShopMenu,
-    SingUpNow,
-    FollowUs,
-  }
-}
+  import MyHeader from "./components/MyHeader.vue"
+  import MyMain from './components/MyMain.vue';
+  import MyFooter from './components/MyFooter.vue';
+
+
+  export default {
+    name: 'App',
+    components: {
+      MyHeader,
+      MyMain,
+      MyFooter,
+    }
+  } 
+  
 </script>
 
 <style lang="scss">
@@ -91,47 +47,4 @@ export default {
     background-color: $colorMain;
   }
 
-  footer{
-
-    .footerUp{
-      background-color: $colorBlue;
-
-      .container{
-         @include centroPagina;
-      }
-    }
-
-    .footerMiddle{
-      background-image: url("./assets/img/footer-bg.jpg");
-      background-size: cover;
-
-      height: 30rem;
-      overflow: hidden;
-
-        .container{
-          @include centroPagina;
-
-          padding: 3rem 0;
-          position: relative;
-
-          img{
-            height: 45rem;
-            
-            position: absolute;
-            top: -8rem;
-            right: 0;
-          }
-        }
-    }
-
-    .footerDown{
-      background-color: $coloreNero;
-      padding: 2rem 0;
-
-      .container{
-         @include centroPagina;
-      }
-    }
-
-  }
 </style>

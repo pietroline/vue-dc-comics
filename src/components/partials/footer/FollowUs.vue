@@ -4,23 +4,23 @@
         <span>FOLLOW US</span>
         
         <a href="#">
-            <img src="./../assets/img/footer-facebook.png" alt="Img logo Facebook">
+            <img src="./../../../assets/img/footer-facebook.png" alt="Img logo Facebook">
         </a>
 
         <a href="#">
-            <img src="./../assets/img/footer-twitter.png" alt="Img logo Twitter">
+            <img src="./../../../assets/img/footer-twitter.png" alt="Img logo Twitter">
         </a>
 
         <a href="#">
-            <img src="./../assets/img/footer-youtube.png" alt="Img logo Youtube">
+            <img src="./../../../assets/img/footer-youtube.png" alt="Img logo Youtube">
         </a>
 
         <a href="#">
-            <img src="./../assets/img/footer-pinterest.png" alt="Img logo Pinterest">
+            <img src="./../../../assets/img/footer-pinterest.png" alt="Img logo Pinterest">
         </a>
 
         <a href="#">
-            <img src="./../assets/img/footer-periscope.png" alt="Img logo Periscope">
+            <img src="./../../../assets/img/footer-periscope.png" alt="Img logo Periscope">
         </a>   
 
     </div>
@@ -34,7 +34,7 @@
 
 <style lang="scss" scoped>
 
-     @import "./../assets/style/variables.scss";
+     @import "./../../../assets/style/variables.scss";
 
     .contenitore{
         color: $colorBlue;
