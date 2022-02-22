@@ -6,8 +6,12 @@
 
             <a href="#">
                 <img :src="item.thumb" :alt="'img DC type ' + item.type">
+            
+                <div class="price">
+                    {{item.price}} 
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
             </a>
-            <div class="price">{{item.price}}</div>
 
        </div>
         <h5>{{item.series}}</h5>
@@ -53,7 +57,9 @@
         }
         
         &:hover .price{
-            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         &:hover img{
