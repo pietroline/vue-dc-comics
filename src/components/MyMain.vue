@@ -11,7 +11,7 @@
                 :item = "item"
             />
 
-            <span class="btn_blue">Load more</span>
+            <a href="#" class="btn_blue">Load more</a>
           
         </div>
 
@@ -136,6 +136,8 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 0.8rem;
+
+            text-decoration: none;
 
             &_blue{
                 @extend .btn;
