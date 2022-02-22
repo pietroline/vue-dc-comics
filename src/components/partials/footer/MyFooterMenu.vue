@@ -1,26 +1,20 @@
 <template>
+
     <ul>
         <li>
-            <a href="#">DC</a>
+            <a :href="titleList.src">{{titleList.text}}</a>
         </li>
-        <li>
-            <a href="#">MAD Magazine</a>
-        </li>
-        <li>
-            <a href="#">DC Kinds</a>
-        </li>
-        <li>
-            <a href="#">DC Universe</a>
-        </li>
-        <li>
-            <a href="#">DC Power Visa</a>
+        <li v-for="(item, index) in menuList" :key="index">
+            <a :href="item.src">{{item.text}}</a>
         </li>
     </ul>
+
 </template>
 
 <script>
     export default {
-       name: "SitesMenu", 
+        name: "MyFooterMenu",
+        props: ["titleList", "menuList"],
     }
 </script>
 
@@ -31,13 +25,14 @@
     ul{
 
         list-style: none;
-        padding: 0 1.5rem;
+        padding: 0.5rem 1.5rem;
 
         li:first-child{
                 text-transform: uppercase;
                 font-weight: bold;
+                font-size: 1.3rem;
 
-                margin-bottom: 1rem;
+                margin-bottom: 0.2rem;
 
                 a{
                     color: #fff;
@@ -57,4 +52,5 @@
             padding: 0.2rem 0;
         }
     }
+
 </style>

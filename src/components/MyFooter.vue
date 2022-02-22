@@ -11,12 +11,12 @@
           <div class="flex">
 
             <div class="flex-column">
-              <DCComicsMenu/>
-              <ShopMenu/>
+              <MyFooterMenu :titleList="mainTitleDCComics" :menuList="menuDCComics"/>
+              <MyFooterMenu :titleList="mainTitleShop" :menuList="menuShop"/>
             </div>
 
-            <DCMenu/>
-            <SitesMenu/>
+            <MyFooterMenu :titleList="mainTitleDC" :menuList="menuDC"/>
+            <MyFooterMenu :titleList="mainTitleSites" :menuList="menuSites"/>
             <img src="./../assets/img/dc-logo-bg.png" alt="">
 
           </div>
@@ -36,26 +36,153 @@
 
 <script>
 
-    import DCComicsMenu from "./partials/footer/DCComicsMenu.vue";
-    import DCMenu from "./partials/footer/DCMenu.vue";
-    import FollowUs from "./partials/footer/FollowUs.vue";
-    import MyBlueBand from "./partials/footer/MyBlueBand.vue";
-    import ShopMenu from "./partials/footer/ShopMenu.vue";
-    import SingUpNow from "./partials/footer/SingUpNow.vue";
-    import SitesMenu from "./partials/footer/SitesMenu.vue";
+  import MyFooterMenu from "./partials/footer/MyFooterMenu.vue";
+  
+  
+  import FollowUs from "./partials/footer/FollowUs.vue";
+  import MyBlueBand from "./partials/footer/MyBlueBand.vue";
+  import SingUpNow from "./partials/footer/SingUpNow.vue";
 
-    export default {
-        name: "MyFooter",
-        components: {
-            DCComicsMenu,
-            DCMenu,
-            FollowUs,
-            MyBlueBand,
-            ShopMenu,
-            SingUpNow,
-            SitesMenu,
+  export default {
+      name: "MyFooter",
+      components: {
+          
+        MyFooterMenu,
+
+        FollowUs,
+        MyBlueBand,
+        SingUpNow,
+      },
+      data(){
+        return{
+          mainTitleDCComics: {
+              src: "#",
+              text: "DC comics",
+            },
+          mainTitleShop: {
+              src: "#",
+              text: "Shop",
+            },
+          mainTitleDC: {
+              src: "#",
+              text: "DC",
+            },
+          mainTitleSites: {
+              src: "#",
+              text: "Sites",
+            },
+      
+          menuDCComics: [
+            {
+              src: "#",
+              text: "Characters",
+            },
+            {
+              src: "#",
+              text: "Comics",
+            },
+            {
+              src: "#",
+              text: "Movies",
+            },
+            {
+              src: "#",
+              text: "TV",
+            },
+            {
+              src: "#",
+              text: "Games",
+            },
+            {
+              src: "#",
+              text: "Videos",
+            },
+            {
+              src: "#",
+              text: "News",
+            },
+          ],
+          menuShop: [
+            {
+              src: "#",
+              text: "Shop DC",
+            },
+            {
+              src: "#",
+              text: "Shop DC Collectibles",
+            },
+          ],
+          menuDC: [
+            {
+              src: "#",
+              text: "Terms Of Use",
+            },
+            {
+              src: "#",
+              text: "Privacy policy (New)",
+            },
+            {
+              src: "#",
+              text: "Ad Choices",
+            },
+            {
+              src: "#",
+              text: "Advertising",
+            },
+            {
+              src: "#",
+              text: "Jobs",
+            },
+            {
+              src: "#",
+              text: "Subscriptions",
+            },
+            {
+              src: "#",
+              text: "Talent Workshops",
+            },
+            {
+              src: "#",
+              text: "CPSC Certificates",
+            },
+            {
+              src: "#",
+              text: "Ratings",
+            },
+            {
+              src: "#",
+              text: "Shop Help",
+            },
+            {
+              src: "#",
+              text: "Contact Us",
+            },
+          ],
+          menuSites: [
+            {
+              src: "#",
+              text: "DC",
+            },
+            {
+              src: "#",
+              text: "MAD Magazine",
+            },
+            {
+              src: "#",
+              text: "DC Kinds",
+            },
+            {
+              src: "#",
+              text: "DC Universe",
+            },
+            {
+              src: "#",
+              text: "DC Power Visa",
+            },
+          ],
         }
-    }
+      }
+  }
 </script>
 
 <style lang="scss" scoped>
